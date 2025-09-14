@@ -1,0 +1,21 @@
+# Ignore venv folder
+venv/
+# Ignore Artifacts folder
+artifacts/
+# Ignore data folder
+data/
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+# Ignore environment variable files
+.env
+# Ignore IDE specific files
+.vscode/
+.idea/
+# Ignore log files
+*.log
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
