@@ -19,3 +19,8 @@ __pycache__/
 Thumbs.db
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Ignore textSummarizer.egg-info folder
+textSummarizer.egg-info/
+# Ignore .pytest_cache folder
+.pytest_cache/

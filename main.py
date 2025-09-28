@@ -1,5 +1,6 @@
 from src.textSummarizer.logging import logger
 from src.textSummarizer.pipeline.stage_1_date_ingestion_pipeline import DataIngestionTrainingPipeline
+from src.textSummarizer.pipeline.stage_2_data_transformation_pipeline import DataTransformationTrainingPipeline
 
 
 logger.info("Logging is implemented...")
@@ -17,3 +18,13 @@ except Exception as e:
     raise e
 
 
+
+STAGE_NAME = "Data Transformation Stage"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    data_transformation_pipeline=DataTransformationTrainingPipeline()
+    data_transformation_pipeline.initiate_data_transformation()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+    logger.exception(e)
+    raise e
