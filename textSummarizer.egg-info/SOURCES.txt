@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-textSummarizer.egg-info/PKG-INFO
-textSummarizer.egg-info/SOURCES.txt
-textSummarizer.egg-info/dependency_links.txt
-textSummarizer.egg-info/requires.txt
-textSummarizer.egg-info/top_level.txt
